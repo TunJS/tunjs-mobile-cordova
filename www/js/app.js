@@ -20,6 +20,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   });
 })
 
+.config(function($ionicAppProvider) {
+  // Identify app
+  $ionicAppProvider.identify({
+    // The App ID (from apps.ionic.io) for the server
+    app_id: 'f77674a0',
+    // The public API key all services will use for this app
+    api_key: 'b97824bd761ae71be29bf3288b87b4c355b7ac0e9bcdd44e',
+    // The GCM project ID (project number) from your Google Developer Console (un-comment if used)
+    // gcm_id: 'YOUR_GCM_ID'
+  });
+})
+
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
