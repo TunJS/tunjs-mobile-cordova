@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="tn.js.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>TunJS</name>
+<widget id="tn.js.app.ionic" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Ionic TunJS</name>
   <description>
       TunJS members and jobs app
   </description>
@@ -9,6 +9,7 @@
     </author>
   <content src="index.html"/>
   <access origin="*"/>
+  <preference name="xwalkVersion" value="13" />
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
